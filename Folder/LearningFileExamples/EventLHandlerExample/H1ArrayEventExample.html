@@ -1,0 +1,95 @@
+<!-- Shows you how to change the text on an element with a switch statment, this can expanded to class, id, and so forth 
+so that not all elements of the same type like h1 are changing text. Also added the console version -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="Author" content ="Carlos Vasquez">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdb.com/boostrap/4.3.1/css/boostrap.min.css">
+    <!--Style information for the document using a link, so user does not have to add an extra file.-->
+
+    <title class = "Lead">Fundamental Learning</title>
+
+
+</head>
+<body>
+    <h1 onClick="changingOnClicks()"> This is what is going to be chnaged.</h1>
+
+
+
+</body>
+<script>
+    //Setup Data
+    var arr =
+    [ "One",
+    "Two",
+    "Three",
+    "Four"
+    
+    ]
+    h1 = document.querySelector("h1")
+
+    function changingOnClicks(){
+        switch(h1.innerText)
+        {
+            case arr[0]:
+                h1.innerText =arr[1]
+                break
+
+                case arr[1]:
+                h1.innerText =arr[2]
+                break
+
+                case arr[2]:
+                h1.innerText =arr[3]
+                break
+
+                default:
+                h1.innerText =arr[0]
+        }
+    }
+
+    //The example above can be done in just the console using the following code. 
+    /*
+    document
+    var h1 = document.querySelector("h1")
+
+    var arr =
+    [ "One",
+    "Two",
+    "Three",
+    "Four"
+
+    
+    function changingOnClicks(){
+        switch(h1.innerText)
+        {
+            case arr[0]:
+                h1.innerText =arr[1]
+                break
+
+                case arr[1]:
+                h1.innerText =arr[2]
+                break
+
+                case arr[2]:
+                h1.innerText =arr[3]
+                break
+
+                default:
+                h1.innerText =arr[0]
+        }
+    }
+
+    h1.addEventListener('click',changingOnClicks)
+
+
+
+    */
+
+</script>
+</html>

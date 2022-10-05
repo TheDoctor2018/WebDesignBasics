@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="Author" content ="Carlos Vasquez">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdb.com/boostrap/4.3.1/css/boostrap.min.css">
+    <!--Style information for the document using a link, so user does not have to add an extra file.-->
+
+    <title class = "Lead">Fundamental Learning</title>
+
+
+</head>
+<body>
+    <p> Hello worlds, this an example for event handling.</p>
+
+    <!-- How to eventlisten with java script function, the all green comments is for how to do it but only console wise.-->
+    <button onClick="console.log('shoot your shot') ">Take the game and shoot.</button><!-- Using java script within html -->
+
+    <button onClick="Shoot()">Shoot Here</button><!--Calling the fucntion through java script-->
+
+</body>
+<script>
+
+    function Shoot(){
+        console.log("Shooted");
+    }
+    
+/*
+This on the console on the web, this only works for the body not for the button above. 
+documnet
+
+const targert = document.querySelector('body')
+
+function handleClick(){
+    console.log('clicked the body')
+}
+
+target.addEventListener('click',handleClick)
+
+
+*/
+</script>
+</html>
