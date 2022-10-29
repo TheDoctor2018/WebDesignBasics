@@ -1,3 +1,11 @@
+<!--Client Side Validations.
+required checks,
+limit input length,
+patterns for password, password must have this inorder to be valid. 
+
+How to give feedback with css on inputs
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,16 +18,39 @@
     <form method="POST">
             <div>
             <label for="usert_name"> Username </label><br>
-                <input type="text" id ="user_name" name="user_name" required> <br>
+                <input type="text" id ="user_name" name="user_name" required minlength="8" maxlength="15"> <br>
             </div>
             <div>
+                <P>Pass Formet: 9 included.</P>
                 <label for="user_password"> Password </label><br>
-                <input type="password" id="user_password" name="user_password" required> <br>
+                <input type="password" id="user_password" name="user_password" required minlength="8" maxlength="15" pattern ="^(9)"> <br>
             </div>
             <div>
                 <button type="submit">SignUp</button>
             </div>       
 
     </form>
+    <!--All fields invalid as their is nothing in them using the below code:
+    
+        <style>
+        input:invalid{
+            border:2px solid red 
+
+        }
+
+    </style>
+    
+    
+    
+    -->
+    <style>
+        input:focus:invalid{
+            border:2px solid red 
+
+        }
+
+    </style>
+
+
 </body>
 </html>
