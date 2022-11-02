@@ -1,0 +1,36 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /*Defining you gree into 12 columns^^^*/
+}
+
+.segment{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+.twelve{
+    background-color: lightgreen;
+    grid-column: 1/span 12;
+}
+
+.eight{
+    background-color: blueviolet;
+    grid-column: 1/span 8;
+}
+
+.four{
+    background-color: rgb(29, 97, 149);
+    grid-column: 1/span 4;
+}
+
+.six{
+    background-color: aqua;
+    grid-column: 1/span 6;
+}
+
+.seven{
+    background-color: rgb(145, 51, 78);
+    grid-column: 1/span 7;
+}

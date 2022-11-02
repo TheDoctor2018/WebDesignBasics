@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    height: 150vh;/*150% viewport height*/
+    grid-template-rows: auto 1fr auto;
+
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 2em;
+
+}
+main{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 2em;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 2em;
+}
