@@ -62,7 +62,32 @@
         <!--Hidden-->
         <!--Image-->
         <!--Number-->
-        <!--Range-->
+
+        <!--Range
+        
+        Slider, extra code is for making sure output goes up or down with slider being updated by user. 
+        -->
+        <form method="post">
+            <div>
+                <label for="range_date">Number of People</label>
+                <input type="range" id="range_date" name="range_date" value="4" min="1" max="10" oninput="this.nextElementSibling.value=this.value">
+                <output>4</output>
+            </div>
+
+        </form>
+        <!--Datalist-->
+        <form method="post">
+
+            <label for="booking_locations">Locations</label>
+            <input id="booking_location" name="booking_location" list="locations">
+            <datalist id="locations">
+                <option value="Downtown"></option>
+                <option value="Uptown"></option>
+            </datalist>
+    
+
+        </form>
+       
         <!--Reset-->
         <!--Research-->
         <!--Time-->

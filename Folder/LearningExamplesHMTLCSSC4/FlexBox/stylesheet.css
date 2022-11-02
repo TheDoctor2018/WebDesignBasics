@@ -1,0 +1,27 @@
+/*Flexbox basic examples for css*/
+
+
+/*Basic Flexbox Sample usages*/
+
+.box{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    /*Alignment Properties:
+    justify-conternt, align-items,self,and content*/
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.box3{
+    background-color: antiquewhite;
+    align-self: center;
+}

@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    align-items: stretch;
+
+}
+
+
+.label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .dog{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.corgi{
+    background-color: blue;
+}
+
+.mix{
+    background-color: red;
+}
+
+.chiwawa{
+    background-color: bisque;
+}
