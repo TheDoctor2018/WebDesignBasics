@@ -10,7 +10,6 @@
 
 @media (max-width: 440px) {
     .container{
-        flex
         grid-template-columns: 200px;
         grid-template-rows: auto 1fr auto auto;
         grid-template-areas: "header header header"

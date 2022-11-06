@@ -1,0 +1,183 @@
+/**Reset everything*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Body*/
+body{
+    background-color: rgb(237, 139, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+/*Images*/
+#mainl{
+    width: 20rem;
+    height: 30rem;
+}
+#mainm{
+    width: 6rem;
+    height: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#mainf{
+    width: 3rem;
+    height: 5rem;
+    opacity: 70%;
+}
+
+.images:hover{
+background-color: rgb(186, 177, 177);
+opacity: 60%;
+
+}
+
+/*Header and Navigation*/
+.menu-holder
+{
+    background-color: azure;
+    border-radius: 5rem;
+
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+    text-size-adjust: 3rem;
+    display: flex;
+
+}
+
+li{
+    flex: 1;
+    display: inline-block;
+}
+
+li:hover {
+    background-color: rgb(224, 224, 111);
+    border-radius: 5rem;
+  }
+
+  /*Main*/
+
+
+section{
+    display: flex;
+    text-align: center;
+}
+
+article{
+    flex: 1;
+}
+
+.Sale{
+    background-color: rgb(16, 204, 204);
+    border: 1px solid rgb(26, 22, 22);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    height: 10rem;
+    
+}
+
+.items{
+    background-color: aliceblue;
+
+    border: 1px solid rgb(26, 22, 22);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 2rem;
+}
+
+/*Spacing*/
+
+.VerticalSpace{
+    height: 2rem;
+    width: 100%;
+}
+
+.VerticalSpace2{
+    height: 1rem;
+    width: 100%;
+}
+
+.VerticalSpaceFooter{
+    height: 10rem;
+    width: 100%;
+}
+
+.HorizontalSpace{
+    width: 1rem;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 2
+}
+
+#footlogo{
+    text-align: left;
+}
+.footcopy{
+    text-align: right;
+    
+}
+
+
+
+
+/*Text4*/
+
+h1{
+    font-size: x-large;
+}
+h2{
+    font-size: medium;
+}
+
+p{
+    text-align: left;
+
+}
+
+.marketinfo{
+    padding-left: 1rem;
+
+}
+
+li::first-letter { 
+
+    color:coral; 
+    
+    font-size: 2.3rem; 
+    
+    font-weight: bold; 
+    
+    line-height: 1; 
+    
+    } 
+
+.marketing::first-line{
+    color:rgb(255, 94, 36); 
+    
+    font-size: 2rem; 
+    
+    font-weight: bold; 
+    
+    line-height: 1; 
+
+    text-shadow: .15rem .1rem black;
+}

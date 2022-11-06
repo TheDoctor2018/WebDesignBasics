@@ -1,0 +1,94 @@
+/*Color Scheme: 
+yellow, orange, pink, purpple
+
+*/
+
+body{
+    background-color: rgb(237, 139, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Text*/
+article+h1{
+    font-size: rem;
+}
+article+h2{
+    font-size: 3rem;
+}
+
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Logos*/
+.main-logo{
+    width: 10rem;
+    height: 15rem;
+}
+
+.mid-logo{
+    width: 5rem;
+    height: 7rem;
+}
+
+.low-logo{
+    width: 3rem;
+    height: 5rem;
+}
+
+/*Navigation Menu*/
+
+.menu-background{
+    background-color: azure;
+    font-size: 2rem;
+
+}
+
+#menu-board{
+    display: flex;
+
+}
+
+nav>ul>li{
+    flex: 1;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    text-size-adjust: 3rem;
+}
+
+li{
+    display: inline-block;
+}
+
+li:hover, h1:hover, li:hover {
+    background-color: rgb(224, 224, 111);
+  }
+
+section{
+    display: flex;
+    text-align: center;
+}
+
+article{
+    flex: 2;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    text-align: center;
+}
